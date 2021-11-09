@@ -10,8 +10,8 @@
 .test {
   background: blue;
   color: white;
-  test1: "HTML5";
-  test2: "React";
+  content: "HTML5";
+  content: "React";
 }
 
 /*# sourceMappingURL=style.css.map */

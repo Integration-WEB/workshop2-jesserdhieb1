@@ -11,12 +11,12 @@ h1{
   @extend .text
 }
 
-@mixin include-border(){
-  border: 3px solid yellow;
+@mixin include-border($border){
+  border: $border;
 }
 
 .btn{
-  @include include-border();
+  @include include-border(3px solid yellow);
 }
 
 
@@ -41,8 +41,8 @@ $backgroud-color: blue;
 .test{
   background: $backgroud-color;
   color: background($backgroud-color);
-  test1:FirstValue($languages);
-  test2:LastValue($languages);
+  content:FirstValue($languages);
+  content:LastValue($languages);
 
 }
 
